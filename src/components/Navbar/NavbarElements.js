@@ -3,6 +3,7 @@ import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
+  position: sticky;
   background: #000;
   height: 80px;
   display: flex;
