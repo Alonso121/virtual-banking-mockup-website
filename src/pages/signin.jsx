@@ -1,9 +1,9 @@
 import React from "react";
-
+import Signin from "../components/Signin";
 const SigninPage = () => {
   return (
     <>
-      <h1>Sign In</h1>
+      <Signin />
     </>
   );
 };
