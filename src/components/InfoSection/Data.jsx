@@ -15,7 +15,7 @@ export const homeObjOne = {
   imgStart: false,
   img: Image1,
   alt: "Man looking at card on the phone",
-  dark: false,
+  dark: true,
   primary: true,
   darkText: false,
 };
@@ -39,7 +39,7 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  id: "signup",
+  id: "sign up",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -51,7 +51,7 @@ export const homeObjThree = {
   imgStart: false,
   img: Image3,
   alt: "Man looking at card",
-  dark: false,
+  dark: true,
   primary: true,
   darkText: false,
 };

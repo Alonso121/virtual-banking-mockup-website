@@ -13,7 +13,6 @@ import {
   NavBtnLink,
 } from "./NavbarElements";
 
-import { linksData } from "./data";
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
 
@@ -33,6 +32,8 @@ const Navbar = ({ toggle }) => {
     scroll.scrollToTop();
   };
 
+  const linksData = ["about", "discover", "services", "sign up"];
+
   return (
     <>
       <Nav scrollNav={scrollNav}>
@@ -45,15 +46,15 @@ const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             {linksData.map((link) => (
-              <NavItem key={link.name}>
+              <NavItem key={link}>
                 <NavLinks
-                  to={link.path}
+                  to={link}
                   smooth={true}
                   duration={500}
                   spy={true}
                   offset={-80}
                 >
-                  {link.name}
+                  {link}
                 </NavLinks>
               </NavItem>
             ))}

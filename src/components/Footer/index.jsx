@@ -9,7 +9,7 @@ import {
   FooterLink,
   SocialMedia,
   SocialMediaWrap,
-  SocialLogo,
+  // SocialLogo,
   WebsiteRights,
   SocialIcons,
   SocialIconLink,
@@ -57,7 +57,7 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">Leku</SocialLogo>
+            {/* <SocialLogo to="/">Leku</SocialLogo> */}
             <WebsiteRights>
               Leku &copy; {new Date().getFullYear()} All Rights Reserved
             </WebsiteRights>
